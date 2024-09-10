@@ -1,5 +1,35 @@
+# Compiled class files
 *.class
+
+# Log files
 *.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
+
+# SBT build files
+target/
+project/
+
+# SBT logs
+*.log
+
+# SBT generated files
+.metals/
+.bloop/
+.worksheet/
+
+# IntelliJ IDEA project files (if you're using IntelliJ)
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code files (if you're using VS Code)
+.vscode/
+
+# MacOS generated files
+.DS_Store
+
+# Linux generated files
+*~
